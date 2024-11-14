@@ -1,0 +1,127 @@
+
+.unprod-class {
+    background-color: #eee;
+}
+
+.expired-class {
+    background-color: #fcc;
+}
+
+.inactive-class {
+    background-color: #999;
+}
+
+.x-grid-item-selected tr {
+    background-color: #f2e3b2 !important;
+}
+
+.admin-title-bar .x-panel-header-default, .admin-title-bar .x-tab-bar-default{
+    background-color: #868;
+}
+
+.users-title-bar .x-panel-header-default, .users-title-bar .x-tab-bar-default{
+    background-color: #686;
+}
+
+/* MY BUTTON */
+.my-button {
+    background-color: #369 !important;
+    border: 2px solid #369 !important;
+    border-radius: 32px !important;
+    padding: 7px 14px 7px 14px !important;
+}
+
+.my-button .x-btn-inner, .my-button .x-btn-icon-el {
+    color: #fff;
+}
+
+.my-button.x-btn-over {
+    background-color: #69C !important;
+}
+
+/* PILL BUTTONS */
+    .start-task-button {
+        background-color: #396 !important;
+        border: 2px solid #396 !important;
+        border-radius: 32px !important;
+        padding: 7px 14px 7px 14px !important;
+    }
+
+    .start-task-button .x-btn-inner, .start-task-button .x-btn-icon-el {
+        color: #fff;
+    }
+    
+    .start-task-button.x-btn-over {
+        background-color: #6C9 !important;
+    }
+
+    .stop-task-button {
+        background-color: #933 !important;
+        border: 2px solid #933 !important;
+        border-radius: 32px !important;
+        padding: 7px 14px 7px 14px !important;
+    }
+
+    .stop-task-button .x-btn-wrap::after {
+        color: #fff !important;
+    }
+
+    .stop-task-button .x-btn-inner, .stop-task-button .x-btn-icon-el {
+        color: #fff;
+    }
+    
+    .stop-task-button.x-btn-over {
+        background-color: #C66 !important;
+    }
+
+
+    /* KPI BOX */
+        .kpiBox.x-btn, .kpiBox.x-focus {
+            background-color: #fff !important;
+            color: #333 !important;
+            border: 1px solid #fff !important;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        .kpiBox .x-btn-inner {
+            color: #333;
+        }
+        .kpiBox.x-btn.x-btn-over {
+            background-color: #fff;
+            border: 1px solid #fff !important;
+        }
+
+        .kpiBox .block {
+            position: relative;
+            z-index: auto;
+            width:100%;
+            height:100%;
+            text-align: center;
+            overflow: hidden;
+        }
+        .kpiBox .block h1, .kpiBox .block h2 {
+            position: absolute;
+            z-index: auto;
+            display: block;
+            padding:0px;
+            margin:0px;
+            left: 10%;
+            top: 50%;
+            width: 80%;
+            overflow-wrap: normal;
+            text-align: center;
+        }
+        .kpiBox .block h1 {
+            font-size: 40px;
+            font-weight: bold;
+            
+            transform: translateY(-100%);
+        }
+
+        .kpiBox .block h2 {
+            font-size: 14px;
+            font-weight: normal;
+            
+            transform: translateY(100%);
+            text-transform: uppercase;
+        }

@@ -1,0 +1,1 @@
+If you want to include Ext JS locally, make sure to include your own SDK in this folder. And make sure your main.jsx file includes the correct SDK.
